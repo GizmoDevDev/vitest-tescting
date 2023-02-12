@@ -9,5 +9,10 @@
     "preview": "vite preview",
     "test": "vitest",
     "coverage": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5",
+    "vite": "^4.1.1",
+    "vitest": "^0.28.4"
   }
 }
