@@ -34,3 +34,22 @@ describe('isSortedDescendant tests', () => {
 - toBe(actualValue) | to.equal(actualValue) - `testingValue` равно `actualValue`
 - not.toBe(actualValue) | not.to.equal(actualValue) - `testingValue` не равно `actualValue`
 - toBeCloseTo(actualValue, decimal)
+- toMatchObject(actualValue) - позволяет сравнивать объекты неполным вхождением
+- toThrowError() - проверяет, что было выброшено исключение
+- resolves() rejects() - проверяет, что промис завершился с указанным статусом
+- arrayContaining(actualValue) - проверяет, что в массиве ест ьвсе перечисленные элементы
+
+## Управление запускаемыми тестами
+- `describe.only` - запускает только этот блок с тестами
+- `describe.skip` - не запускает это блок с тестами
+- `describe.todo` - для заглушек ненаписанных тестов
+- `describe.skipIf` - пропускает тест, если условие выполняется
+
+## Действия перед/после тестов
+- `beforeEach` - выполняется перед каждым тестом
+- `afterEach` - выполняется после каждого теста
+- `beforeAll` - выполняется один раз перед всеми тестами
+- `afterAll` - выполняется один раз после всех тестов
+
+## Доп опции
+- `describe.each` - позволяет передать набор данных, которые будут использоваться во всех тестах внутри блока
