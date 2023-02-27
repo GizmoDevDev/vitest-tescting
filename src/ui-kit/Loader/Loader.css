@@ -1,0 +1,45 @@
+.loader_size-s {
+  width: 20px;
+  height: 20px;
+  border: 3px solid #000000;
+  border-left: 3px solid #ffffff;
+}
+.loader_size-m {
+  width: 40px;
+  height: 40px;
+  border: 4.5px solid #000000;
+  border-left: 4.5px solid #ffffff;
+}
+.loader_size-l {
+  width: 60px;
+  height: 60px;
+  border: 6px solid #000000;
+  border-left: 6px solid #ffffff;
+}
+
+.loader {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  border-radius: 50%;
+  box-sizing: border-box;
+  animation: 2s linear 0s normal none infinite running loader;
+  -webkit-animation: 2s linear 0s normal none infinite running loader;
+}
+
+@keyframes loader {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes loader {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
