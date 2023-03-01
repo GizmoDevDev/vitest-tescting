@@ -6,3 +6,4 @@
 ## [Установка, настройка и запуск](./docs/setup.md)
 ## [Базовые возможности](./docs/basic-knowledge.md)
 ## [Подмена данных и слежка](./docs/mocking.md)
+## [Тестирование React](./docs/react.md)
