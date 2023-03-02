@@ -1,0 +1,39 @@
+// Vitest Snapshot v1
+
+exports[`тестирование экрана с конвертацией валют > Change rub input 1`] = `
+<div>
+  <div>
+    <input
+      type="number"
+      value="0"
+    />
+    <div>
+      Exchange rate: 
+      54
+    </div>
+    <input
+      type="number"
+      value="1"
+    />
+  </div>
+</div>
+`;
+
+exports[`тестирование экрана с конвертацией валют > Change usd input 1`] = `
+<div>
+  <div>
+    <input
+      type="number"
+      value="2916"
+    />
+    <div>
+      Exchange rate: 
+      54
+    </div>
+    <input
+      type="number"
+      value="0"
+    />
+  </div>
+</div>
+`;
